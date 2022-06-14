@@ -1,0 +1,16 @@
+{
+  "name": "URL and TITLE Copy Extension",
+  "description": "Scrapboxの外部リンク用に「URL タイトル」という形式でコピーできるchrome拡張機能",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "URL and TITLE Copy Extension",
+    "default_popup": "popup.html"
+  },
+  "icons": {
+    "16": "icon.png",
+    "48": "icon.png",
+    "128": "icon.png"
+  },
+  "permissions": ["tabs"]
+}
